@@ -28,6 +28,7 @@ Project is created with:
 	
 ## Setup
 All the necessary libraries are in the requirements file. You can install with a command:
+
 ```
 $ pip install -r requirements.txt
 ```
