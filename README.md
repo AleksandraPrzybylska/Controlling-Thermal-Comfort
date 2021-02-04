@@ -40,3 +40,8 @@ To run this project, you need to pass two arguments:
 ```
 $ python main.py input_file results_file_csv
 ```
+#Models
+You can find both models in file models. There are also files that create models.p used in program.
+To predict temperature linear model Ridge was used.
+To predict valve RandomForestRegressor was used.
+
