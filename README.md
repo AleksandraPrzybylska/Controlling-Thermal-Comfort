@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Models](#models)
 
 ## General info
 The data was provided by the LERTA company (https://www.lerta.energy/).
@@ -40,8 +41,10 @@ To run this project, you need to pass two arguments:
 ```
 $ python main.py input_file results_file_csv
 ```
-# Models
+## Models
 You can find both models in file models. There are files that create models.p used in program.
 To predict temperature linear model Ridge was used.
 To predict valve RandomForestRegressor was used.
+
+To evaluate results Mean Absolute Error was used.
 
